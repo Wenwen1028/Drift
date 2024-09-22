@@ -8,7 +8,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     
     conda create -n env_name python=3.6
     conda activate env_name
-### Install libraries    
+### Install Packages   
     conda install torch==2.4.0
     conda install torchvision==0.19.0
     conda install torchaudio==2.4.0
@@ -18,7 +18,10 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     conda install matplotlib-inline==0.1.7
     conda install numpy==1.26.4
     conda install openpyxl==3.1.5
-    or you can try to 
+    or You can directly use the uploaded requirement.txt file by entering the following command：
+    pip install -r requirements.txt
+(Python version is the 3.7 and the GPU is the V100 with cuda 10.1, cudatoolkit 10.1)
+    
     
     
 
