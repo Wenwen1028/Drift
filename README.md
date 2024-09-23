@@ -52,6 +52,14 @@ https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu
 - **batch1_lab~batch10_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene).
 - **batch11_ext~batch14_ext**：Features of the developed self-developed E-nose drift data.
 - **batch11_lab~batch14_lab**：Labels for the developed self-developed E-nose drift data. (1: CO; 2: H2; 3: CO and H2 gas mixture).
+# Citation
+If you find our code useful for your research, please cite our papers.
+@article{tanwisuth2023pouf,
+  title={Unsupervised Attention-Based Multi-Source Domain Adaptation Framework for Drift Compensation in Electronic Nose Systems},
+  author={Wenwen Zhang, Shuhao Hu, Zhengyuan Zhang, Yuanjin Zheng, Qi Jie Wang, Zhiping Lin},
+  journal={arXiv preprint arXiv:2409.13167},
+  year={2024}
+}
 # Contact
 If you have any problem about our work, feel free to contact
 - wenwen.zhang@ntu.edu.sg
