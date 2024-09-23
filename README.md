@@ -84,7 +84,7 @@ or alternatively, feel free to post your queries or suggestions in the Issues se
 This code is intended solely for research purposes. Any commercial use, redistribution, or incorporation into commercial products or services is strictly prohibited without prior written permission.
 
 We would like to thank Dr. Alexander Vergara and Shankar Vembu at the BioCircuits Institute, University of California, San Diego, for providing the dataset. If you wish to utilize this dataset, please cite the following:
-Vergara, A. (2012). Gas Sensor Array Drift Dataset [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5RP6W.
+[1] Vergara, A. (2012). Gas Sensor Array Drift Dataset [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5RP6W.
 
 
 
