@@ -22,7 +22,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     or You can directly use the uploaded requirement.txt file by entering the following command：
     pip install -r requirements.txt
 ### Program Overview
-PCA_batch1_batch14：1) pca_2d_label：code for reducing batches 1 to 14 to a 2D labeled display using PCA. 2) folder-pca_plots: the folder designated for storing data after PCA dimensionality reduction.
+#### PCA_batch1_batch14：1) pca_2d_label：code for reducing batches 1 to 14 to a 2D labeled display using PCA. 2) folder-pca_plots: the folder designated for storing data after PCA dimensionality reduction.
 folder-data_01：Record the accuracy and loss curve values throughout the experiment for convergence analysis.
 
 
