@@ -33,7 +33,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{data_loader}**：***data_loader.py***: data loading code.
 - **folder{ema}**：
     - ***1) ema.py***: This demonstration extracts dynamic features from drift data of the TGS2610 sensor in a gas mixture of 180 ppm CO and 180 ppm H₂. For detailed information, see Section V, subsection on experimental validation of the model using drift data from the self-developed E-nose system, and Fig. 8.
-    - -***2) 180ppmH2_CO2.text***: Dynamic response signal of a mixed gas containing 180 ppm H₂ and 180 ppm CO, recorded using a self-developed electronic nose.
+    - ***2) 180ppmH2_CO2.text***: Dynamic response signal of a mixed gas containing 180 ppm H₂ and 180 ppm CO, recorded using a self-developed electronic nose.
     - ***3) ema_data***: Save the EMA signal at $\alpha$=0.1, $\alpha$=0.01, $\alpha$=0.001.
 - **folder{hsh/train_new}**：
     - ***1) Dataset_ext***: batch1_ext ~ batch10_ext: UCI drift feature data;  batch11_ext ~ batch14_ext: self-developed E-nose drift feature data;
@@ -49,9 +49,10 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 The UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
 https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu_sg/Documents/dataset.zip?csf=1&web=1&e=fC2Yey
 - **batch1_ext~batch10_ext**：Features of the UCI drift data.
-- **batch1_lab~batch10_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene)
+- **batch1_lab~batch10_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene).
 - **batch11_ext~batch14_ext**：Features of the developed self-developed E-nose drift data.
 - **batch11_lab~batch14_lab**：Labels for the developed self-developed E-nose drift data. (1: CO; 2: H2; 3: CO and H2 gas mixture).
+
 
 
 
