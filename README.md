@@ -50,7 +50,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 -  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: The main code for the AMDS-PFFA framework for the source domain batch 1 and batch 2, and the target domain batches 3 through  10 from the UCI drift dataset. 
 -  **{batch11_12_to_13.py, batch11_12_to_14.py}**:  Main code for the AMDS-PFFA framework, applied to source domain batches 11 and 12, and target domain batches 13 to 14 from the self-developed E-nose drift dataset.
 # Implementation
-
+Once the required packages are installed, you can directly run the following code files: batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py, batch11_12_to_13.py, and batch11_12_to_14.py. The experimental results will be saved in the "data_01" folder. You can verify the results using the recorded accuracy and loss values.
 # Available datasets
 the UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
 https://entuedu-my.sharepoint.com/:u:/g/personal/wenwen_zhang_staff_main_ntu_edu_sg/EVrkyHtdt1BOtIn7VhFIMAAB473tFwuWdGSUj5PrlIdFIQ?e=3MjgCx
