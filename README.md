@@ -36,7 +36,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{trained_models}**:The folder designated for storing the trained AMDS-PFFA model.
 -  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: The main code for the AMDS-PFFA framework for the target domain batches 3 through  10 from the UCI drift dataset.
 # Available datasets
-The dataset employed in our work: 
+The UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
 https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu_sg/Documents/dataset.zip?csf=1&web=1&e=fC2Yey
 -**batch1_ext~batch10_ext**：Features of the UCI drift data. -**batch1_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene)
 
