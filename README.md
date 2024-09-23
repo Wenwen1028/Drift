@@ -32,7 +32,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{normalization}**：The folder designated for storing the normalized data. Execute maxmin_normalization.py and maxmin_normalization.py, and save the output to this directory.
 -  **folder{pca_12_03},{pca_12_04},{pca_12_05},{pca_12_06},pca_12_07},{pca_12_08},{pca_12_09},{pca_12_10}**：Save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
 -   **folder{pca_1112_13},{pca_1112_14}**：Save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
-- **folder{pca_plots}**: PCA 
+- **folder{tsne_batch1_batch14}**: the folder designated for storing batch1~batch14 data after tsne dimensionality reduction.
   
 
 
