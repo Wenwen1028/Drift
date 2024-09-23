@@ -47,7 +47,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 -  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: The main code for the AMDS-PFFA framework for the target domain batches 3 through  10 from the UCI drift dataset.
 # Available datasets
 The UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
-https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu_sg/Documents/dataset.zip?csf=1&web=1&e=fC2Yey
+https://entuedu-my.sharepoint.com/:u:/g/personal/wenwen_zhang_staff_main_ntu_edu_sg/EVrkyHtdt1BOtIn7VhFIMAAB473tFwuWdGSUj5PrlIdFIQ?e=3MjgCx
 - **batch1_ext~batch10_ext**：Features of the UCI drift data.
 - **batch1_lab~batch10_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene).
 - **batch11_ext~batch14_ext**：Features of the developed self-developed E-nose drift data.
