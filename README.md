@@ -52,6 +52,10 @@ https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu
 - **batch1_lab~batch10_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene).
 - **batch11_ext~batch14_ext**：Features of the developed self-developed E-nose drift data.
 - **batch11_lab~batch14_lab**：Labels for the developed self-developed E-nose drift data. (1: CO; 2: H2; 3: CO and H2 gas mixture).
+# Contact
+If you have any problem about our work, feel free to contact
+- wenwen.zhang@ntu.edu.sg
+or describe your problems in Issues.
 
 
 
