@@ -77,11 +77,12 @@ If you find our code useful for your research, please cite our papers.
 
 # Contact
 We welcome feedback, inquiries, and suggestions to improve our work. If you encounter any issues with our code or have recommendations, please don't hesitate to reach out. You can contact via email:
-wenwen.zhang@ntu.edu.sg
+- wenwen.zhang@ntu.edu.sg
 or alternatively, feel free to post your queries or suggestions in the Issues section of our GitHub repository.
 
 # Acknowledgment
-
+This code is intended solely for research purposes. Any commercial use, redistribution, or incorporation into commercial products or services is strictly prohibited without prior written permission.
+We 
 Vergara, A. (2012). Gas Sensor Array Drift Dataset [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5RP6W.
 
 
