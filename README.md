@@ -26,28 +26,31 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     pip install -r requirements.txt
 ### Program Overview
 - **folder{PCA_batch1_batch14}**：
-    - ***1) pca_2d_label.py***: code for reducing batches 1 to 14 to a 2D labeled display using PCA.
-    - ***2) folder-pca_plots***: the folder designated for storing data after PCA dimensionality reduction.
+    - ***1) pca_2d_label.py***: Code for reducing batches 1 to 14 to a 2D labeled display using PCA.
+    - ***2) folder-pca_plots***: The folder designated for storing data after PCA dimensionality reduction.
 - **folder{Preprocessing_UCIdrift_dataset}**:
-    - ***1) maxmin_normalization.py***: maximum and minimum normalization for UCI Batches 1 to 10.
+    - ***1) maxmin_normalization.py***: Maximum and minimum normalization for UCI Batches 1 to 10.
     - ***2) maxmin_normalization.py***: Zero mean normalization for UCI batches 1 to 10.
     - ***3) batch1 to batch 10.py***: UCI Dataset can be download from https://archive.ics.uci.edu/dataset/224/gas+sensor+array+drift+dataset. In this work, we employ zero mean normalization method ()  
-- **folder{data_01}**：record the accuracy and loss curve values throughout the experiment for convergence analysis.
-- **folder{data_loader}**：***data_loader.py***: data loading code.
+- **folder{data_01}**：Record the accuracy and loss curve values throughout the experiment for convergence analysis.
+- **folder{data_loader}**：***data_loader.py***: Data loading code.
 - **folder{ema}**：
-    - ***1) ema.py***: this demonstration extracts dynamic features from drift data of the TGS2610 sensor in a gas mixture of 180 ppm CO and 180 ppm H₂. For detailed information, see Section V, subsection on experimental validation of the model using drift data from the self-developed E-nose system, and Fig. 8.
-    - ***2) 180ppmH2_CO2.text***: dynamic response signal of a mixed gas containing 180 ppm H₂ and 180 ppm CO, recorded using a self-developed electronic nose.
+    - ***1) ema.py***: This demonstration extracts dynamic features from drift data of the TGS2610 sensor in a gas mixture of 180 ppm CO and 180 ppm H₂. For detailed information, see Section V, subsection on experimental validation of the model using drift data from the self-developed E-nose system, and Fig. 8.
+    - ***2) 180ppmH2_CO2.text***: Dynamic response signal of a mixed gas containing 180 ppm H₂ and 180 ppm CO, recorded using a self-developed electronic nose.
     - ***3) ema_data***: Save the EMA signal at $\alpha$=0.1, $\alpha$=0.01, $\alpha$=0.001.
 - **folder{hsh/train_new}**：
-    - ***1) Dataset_ext***: batch1_ext ~ batch10_ext: UCI drift feature data;  batch11_ext ~ batch14_ext: self-developed E-nose drift feature data;
-    - ***2) Dataset_lab***: batch1_lab ~ batch10_lab: labels for UCI drift feature data;  batch11_ext ~ batch14_ext: labels for self-developed E-nose drift feature data;
-- **folder{lmmd}**：***lmmd.py***: code for achieving local maximum mean discrepancy.
-- **folder{normalization}**：the folder designated for storing the normalized data. Execute maxmin_normalization.py and maxmin_normalization.py, and save the output to this directory.
--  **folder{pca_12_03},{pca_12_04},{pca_12_05},{pca_12_06},pca_12_07},{pca_12_08},{pca_12_09},{pca_12_10}**：save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
--   **folder{pca_1112_13},{pca_1112_14}**：save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
-- **folder{tsne_batch1_batch14}**: the folder designated for storing batch1~batch14 data after tsne dimensionality reduction.
-- **folder{trained_models}**:the folder designated for storing the trained AMDS-PFFA model.
--  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: the main code for the AMDS-PFFA framework for the target domain batches 3 through  10 from the UCI drift dataset.
+    - ***1) Dataset_ext***: Batch1_ext ~ batch10_ext: UCI drift feature data;  batch11_ext ~ batch14_ext: self-developed E-nose drift feature data;
+    - ***2) Dataset_lab***: Batch1_lab ~ batch10_lab: labels for UCI drift feature data;  batch11_ext ~ batch14_ext: labels for self-developed E-nose drift feature data;
+- **folder{lmmd}**：***lmmd.py***: Code for achieving local maximum mean discrepancy.
+- **folder{normalization}**：The folder designated for storing the normalized data. Execute maxmin_normalization.py and maxmin_normalization.py, and save the output to this directory.
+-  **folder{pca_12_03},{pca_12_04},{pca_12_05},{pca_12_06},pca_12_07},{pca_12_08},{pca_12_09},{pca_12_10}**：Save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
+-   **folder{pca_1112_13},{pca_1112_14}**：Save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
+- **folder{tsne_batch1_batch14}**: The folder designated for storing batch1~batch14 data after tsne dimensionality reduction.
+- **folder{trained_models}**:The folder designated for storing the trained AMDS-PFFA model.
+-  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: The main code for the AMDS-PFFA framework for the source domain batch 1 and batch 2, and the target domain batches 3 through  10 from the UCI drift dataset. 
+-  **{batch11_12_to_13.py, batch11_12_to_14.py}**:  Main code for the AMDS-PFFA framework, applied to source domain batches 11 and 12, and target domain batches 13 to 14 from the self-developed E-nose drift dataset.
+# Implementation
+
 # Available datasets
 the UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
 https://entuedu-my.sharepoint.com/:u:/g/personal/wenwen_zhang_staff_main_ntu_edu_sg/EVrkyHtdt1BOtIn7VhFIMAAB473tFwuWdGSUj5PrlIdFIQ?e=3MjgCx
