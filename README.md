@@ -27,7 +27,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{data_01}**：Record the accuracy and loss curve values throughout the experiment for convergence analysis.
 - **folder{data_loader}**：***data_loader.py***: data loading code.
 - **folder{ema}**：***1) ema.py***: This demonstration extracts dynamic features from drift data of the TGS2610 sensor in a gas mixture of 180 ppm CO and 180 ppm H₂. For detailed information, see Section V, subsection on experimental validation of the model using drift data from the self-developed E-nose system, and Fig. 8. ***2) 180ppmH2_CO2.text***: Dynamic response signal of a mixed gas containing 180 ppm H₂ and 180 ppm CO, recorded using a self-developed electronic nose.  ***3) ema_data***: Save the EMA signal at $alpha$=0.1, $\alpha$=0.01, $\alpha$=0.001.
-- **folder{hsh}**： ***1) Dataset_ext***: batch1_ext ~ batch10_ext: 
+- **folder{hsh}**： ***1) Dataset_ext***: batch1_ext ~ batch10_ext: UCI drift feature data;  batch1_ext ~ batch10_ext: UCI drift feature data; 
   
 
 
