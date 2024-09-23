@@ -25,6 +25,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{PCA_batch1_batch14}**：***1) pca_2d_label.py***: code for reducing batches 1 to 14 to a 2D labeled display using PCA. ***2) folder-pca_plots***: the folder designated for storing data after PCA dimensionality reduction.
 - **folder{Preprocessing_UCIdrift_dataset}**: ***1) maxmin_normalization.py***: maximum and minimum normalization for UCI Batches 1 to 10. ***2) maxmin_normalization.py***: Zero mean normalization for UCI batches 1 to 10. ***3) batch1 to batch 10.py***: UCI Dataset can be download from https://archive.ics.uci.edu/dataset/224/gas+sensor+array+drift+dataset  
 - **folder{data_01}**：Record the accuracy and loss curve values throughout the experiment for convergence analysis.
+- **folder{data_loader}**：***data_loader.py***: data loading code.
 - 
 
 
