@@ -62,7 +62,7 @@ If you find our code useful for your research, please cite our papers.
   year={2024}
 } </pre>
 
-@ARTICLE{10230866,
+<pre> @ARTICLE{10230866,
   author={Zhang, Wenwen and Zheng, Yuanjin and Lin, Zhiping},
   journal={IEEE Transactions on Industrial Electronics}, 
   title={Real-Time Gas Composition Identification and Concentration Estimation Model for Artificial Olfaction}, 
