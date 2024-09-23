@@ -62,6 +62,17 @@ If you find our code useful for your research, please cite our papers.
   year={2024}
 } </pre>
 
+@ARTICLE{10230866,
+  author={Zhang, Wenwen and Zheng, Yuanjin and Lin, Zhiping},
+  journal={IEEE Transactions on Industrial Electronics}, 
+  title={Real-Time Gas Composition Identification and Concentration Estimation Model for Artificial Olfaction}, 
+  year={2024},
+  volume={71},
+  number={7},
+  pages={8055-8065},
+  keywords={Sensor arrays;Estimation;Gases;Real-time systems;Olfactory;Monitoring;Humidity;Artificial olfaction;attention mechanism;concentration estimation;gas identification},
+  doi={10.1109/TIE.2023.3306402}}
+
 # Contact
 If you have any problem about our work, feel free to contact
 - wenwen.zhang@ntu.edu.sg
