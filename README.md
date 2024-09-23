@@ -32,29 +32,29 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     - ***1) maxmin_normalization.py***: maximum and minimum normalization for UCI Batches 1 to 10.
     - ***2) maxmin_normalization.py***: Zero mean normalization for UCI batches 1 to 10.
     - ***3) batch1 to batch 10.py***: UCI Dataset can be download from https://archive.ics.uci.edu/dataset/224/gas+sensor+array+drift+dataset. In this work, we employ zero mean normalization method ()  
-- **folder{data_01}**：Record the accuracy and loss curve values throughout the experiment for convergence analysis.
+- **folder{data_01}**：record the accuracy and loss curve values throughout the experiment for convergence analysis.
 - **folder{data_loader}**：***data_loader.py***: data loading code.
 - **folder{ema}**：
-    - ***1) ema.py***: This demonstration extracts dynamic features from drift data of the TGS2610 sensor in a gas mixture of 180 ppm CO and 180 ppm H₂. For detailed information, see Section V, subsection on experimental validation of the model using drift data from the self-developed E-nose system, and Fig. 8.
-    - ***2) 180ppmH2_CO2.text***: Dynamic response signal of a mixed gas containing 180 ppm H₂ and 180 ppm CO, recorded using a self-developed electronic nose.
+    - ***1) ema.py***: this demonstration extracts dynamic features from drift data of the TGS2610 sensor in a gas mixture of 180 ppm CO and 180 ppm H₂. For detailed information, see Section V, subsection on experimental validation of the model using drift data from the self-developed E-nose system, and Fig. 8.
+    - ***2) 180ppmH2_CO2.text***: dynamic response signal of a mixed gas containing 180 ppm H₂ and 180 ppm CO, recorded using a self-developed electronic nose.
     - ***3) ema_data***: Save the EMA signal at $\alpha$=0.1, $\alpha$=0.01, $\alpha$=0.001.
 - **folder{hsh/train_new}**：
     - ***1) Dataset_ext***: batch1_ext ~ batch10_ext: UCI drift feature data;  batch11_ext ~ batch14_ext: self-developed E-nose drift feature data;
     - ***2) Dataset_lab***: batch1_lab ~ batch10_lab: labels for UCI drift feature data;  batch11_ext ~ batch14_ext: labels for self-developed E-nose drift feature data;
-- **folder{lmmd}**：***lmmd.py***: Code for achieving local maximum mean discrepancy.
-- **folder{normalization}**：The folder designated for storing the normalized data. Execute maxmin_normalization.py and maxmin_normalization.py, and save the output to this directory.
--  **folder{pca_12_03},{pca_12_04},{pca_12_05},{pca_12_06},pca_12_07},{pca_12_08},{pca_12_09},{pca_12_10}**：Save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
--   **folder{pca_1112_13},{pca_1112_14}**：Save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
-- **folder{tsne_batch1_batch14}**: The folder designated for storing batch1~batch14 data after tsne dimensionality reduction.
-- **folder{trained_models}**:The folder designated for storing the trained AMDS-PFFA model.
--  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: The main code for the AMDS-PFFA framework for the target domain batches 3 through  10 from the UCI drift dataset.
+- **folder{lmmd}**：***lmmd.py***: code for achieving local maximum mean discrepancy.
+- **folder{normalization}**：the folder designated for storing the normalized data. Execute maxmin_normalization.py and maxmin_normalization.py, and save the output to this directory.
+-  **folder{pca_12_03},{pca_12_04},{pca_12_05},{pca_12_06},pca_12_07},{pca_12_08},{pca_12_09},{pca_12_10}**：save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
+-   **folder{pca_1112_13},{pca_1112_14}**：save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
+- **folder{tsne_batch1_batch14}**: the folder designated for storing batch1~batch14 data after tsne dimensionality reduction.
+- **folder{trained_models}**:the folder designated for storing the trained AMDS-PFFA model.
+-  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: the main code for the AMDS-PFFA framework for the target domain batches 3 through  10 from the UCI drift dataset.
 # Available datasets
-The UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
+the UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
 https://entuedu-my.sharepoint.com/:u:/g/personal/wenwen_zhang_staff_main_ntu_edu_sg/EVrkyHtdt1BOtIn7VhFIMAAB473tFwuWdGSUj5PrlIdFIQ?e=3MjgCx
-- **batch1_ext~batch10_ext**：Features of the UCI drift data.
-- **batch1_lab~batch10_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene).
-- **batch11_ext~batch14_ext**：Features of the self-developed E-nose drift data.
-- **batch11_lab~batch14_lab**：Labels for the self-developed E-nose drift data. (1: CO; 2: H2; 3: CO and H2 gas mixture).
+- **batch1_ext~batch10_ext**：features of the UCI drift data.
+- **batch1_lab~batch10_lab**：labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene).
+- **batch11_ext~batch14_ext**：features of the self-developed E-nose drift data.
+- **batch11_lab~batch14_lab**：labels for the self-developed E-nose drift data. (1: CO; 2: H2; 3: CO and H2 gas mixture).
 # Citation
 If you find our code useful for your research, please cite our papers.
 
