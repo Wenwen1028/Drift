@@ -70,7 +70,6 @@ If you find our code useful for your research, please cite our papers.
   volume={71},
   number={7},
   pages={8055-8065},
-  keywords={Sensor arrays;Estimation;Gases;Real-time systems;Olfactory;Monitoring;Humidity;Artificial olfaction;attention mechanism;concentration estimation;gas identification},
   doi={10.1109/TIE.2023.3306402}} </pre>
 
 # Contact
