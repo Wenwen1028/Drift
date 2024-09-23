@@ -55,12 +55,12 @@ https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu
 # Citation
 If you find our code useful for your research, please cite our papers.
 
-<pre> ``@article{c1,
+<pre> @article{c1,
   title={Unsupervised Attention-Based Multi-Source Domain Adaptation Framework for Drift Compensation in Electronic Nose Systems},
   author={Wenwen Zhang, Shuhao Hu, Zhengyuan Zhang, Yuanjin Zheng, Qi Jie Wang, Zhiping Lin},
   journal={arXiv preprint arXiv:2409.13167},
   year={2024}
-}'' </pre>
+} </pre>
 
 # Contact
 If you have any problem about our work, feel free to contact
