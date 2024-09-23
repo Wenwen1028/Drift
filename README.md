@@ -35,7 +35,8 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{tsne_batch1_batch14}**: The folder designated for storing batch1~batch14 data after tsne dimensionality reduction.
 - **folder{trained_models}**:The folder designated for storing the trained AMDS-PFFA model.
 -  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: The main code for the AMDS-PFFA framework for the target domain batches 3 through  10 from the UCI drift dataset.
-  
+# Available datasets
+
 
 
 
