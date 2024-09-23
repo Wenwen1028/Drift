@@ -22,6 +22,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     or You can directly use the uploaded requirement.txt file by entering the following command：
     pip install -r requirements.txt
 ### Program Overview
+folder-data_01："Record the accuracy and loss curve values throughout the experiment for convergence analysis.
 
 
 
