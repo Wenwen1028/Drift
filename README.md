@@ -1,4 +1,4 @@
-# Unsupervised-Attention-Based-Multi-Source-Domain-Adaptation-Framework
+# Unsupervised Attention-Based Multi-Source Domain Adaptation Framework for Drift Compensation in Electronic Nose Systems
 ![示例图片](image/framework.jpg)
 Fig. 1 Overview of the proposed unsupervised AMDS-PFFA model framework for drift compensation.
 ![示例图片](image/model.jpg)
