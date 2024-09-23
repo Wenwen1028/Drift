@@ -39,6 +39,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 The UCI drift data and the drift data collected by the self-developed electronic nose are available at this link：
 https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu_sg/Documents/dataset.zip?csf=1&web=1&e=fC2Yey
 -**batch1_ext~batch10_ext**：Features of the UCI drift data. -**batch1_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene)
+-**batch11_ext~batch14_ext**：Features of the developed self-developed E-nose drift data. -**batch1_lab**：Labels for the developed self-developed E-nose drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene)
 
 
 
