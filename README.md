@@ -21,6 +21,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     conda install matplotlib-inline==0.1.7
     conda install numpy==1.26.4
     conda install openpyxl==3.1.5
+    
     or You can directly use the uploaded requirement.txt file by entering the following command：
     pip install -r requirements.txt
 ### Program Overview
