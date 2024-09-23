@@ -41,7 +41,8 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{hsh/train_new}**：
     - ***1) Dataset_ext***: Batch1_ext ~ batch10_ext: UCI drift feature data;  batch11_ext ~ batch14_ext: self-developed E-nose drift feature data;
     - ***2) Dataset_lab***: Batch1_lab ~ batch10_lab: labels for UCI drift feature data;  batch11_ext ~ batch14_ext: labels for self-developed E-nose drift feature data;
-- **folder{lmmd}**：***lmmd.py***: Code for achieving local maximum mean discrepancy.
+- **folder{lmmd}**：
+    - ***lmmd.py***: Code for achieving local maximum mean discrepancy.
 - **folder{normalization}**：The folder designated for storing the normalized data. Execute maxmin_normalization.py and maxmin_normalization.py, and save the output to this directory.
 -  **folder{pca_12_03},{pca_12_04},{pca_12_05},{pca_12_06},pca_12_07},{pca_12_08},{pca_12_09},{pca_12_10}**：Save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
 -   **folder{pca_1112_13},{pca_1112_14}**：Save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
