@@ -38,7 +38,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 # Available datasets
 The dataset employed in our work: 
 https://entuedu-my.sharepoint.com/:u:/r/personal/wenwen_zhang_staff_main_ntu_edu_sg/Documents/dataset.zip?csf=1&web=1&e=fC2Yey
-batch1_ext~batch10_ext：Features of the UCI drift data. batch1_lab：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene)
+-**batch1_ext~batch10_ext**：Features of the UCI drift data. -**batch1_lab**：Labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene)
 
 
 
