@@ -59,7 +59,7 @@ https://entuedu-my.sharepoint.com/:u:/g/personal/wenwen_zhang_staff_main_ntu_edu
 - **batch1_ext~batch10_ext**：features of the UCI drift data.
 - **batch1_lab~batch10_lab**：labels for the drift data. (1: Ethanol; 2: Ethylene; 3:Ammonia; 4: Acetaldehyde; 5: Acetone; 6: Toluene).
 - **batch11_ext~batch14_ext**：features of the self-developed E-nose drift data.
-- **batch11_lab~batch14_lab**：labels for the self-developed E-nose drift data. (1: CO; 2: $H_2$; 3: CO and H2 gas mixture).
+- **batch11_lab~batch14_lab**：labels for the self-developed E-nose drift data. (1: CO; 2: $\rm H_2$; 3: CO and H2 gas mixture).
 # Citation
 If you find our code useful for your research, please cite our papers.
 
