@@ -61,7 +61,7 @@ https://entuedu-my.sharepoint.com/:u:/g/personal/wenwen_zhang_staff_main_ntu_edu
 - **batch11_ext~batch14_ext**：features of the self-developed E-nose drift data.
 - **batch11_lab~batch14_lab**：labels for the self-developed E-nose drift data. (1: CO; 2: $\rm H_2$; 3: CO and $\rm H_2$ gas mixture).
 # Citation
-If you find our code useful for your research, please cite our papers.
+If you find our code helpful in your research, please consider citing our papers.
 
 <pre> @article{c1,
   title={Unsupervised Attention-Based Multi-Source Domain Adaptation Framework for Drift Compensation in Electronic Nose Systems},
