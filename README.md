@@ -45,8 +45,8 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{lmmd}**：
     - ***lmmd.py***: Code for achieving local maximum mean discrepancy.
 - **folder{normalization}**：The folder designated for storing the normalized data. Execute maxmin_normalization.py and maxmin_normalization.py, and save the output to this directory.
--  **folder{pca_12_03},{pca_12_04},{pca_12_05},{pca_12_06},pca_12_07},{pca_12_08},{pca_12_09},{pca_12_10}**：Save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
--   **folder{pca_1112_13},{pca_1112_14}**：Save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
+-  **folder{pca_12_03}, {pca_12_04}, {pca_12_05}, {pca_12_06}, {pca_12_07}, {pca_12_08}, {pca_12_09}, {pca_12_10}**：Save t-SNE 2D projections of fused features from the UCI drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
+-   **folder{pca_1112_13}, {pca_1112_14}**：Save t-SNE 2D projections of fused features from the self-developed E-nose drift dataset for source-target domain pairs after applying the iAFF module. Each Excel sheet contains the corresponding t-SNE 2D projections of the fused feature data.
 - **folder{tsne_batch1_batch14}**: The folder designated for storing batch1~batch14 data after tsne dimensionality reduction.
 - **folder{trained_models}**:The folder designated for storing the trained AMDS-PFFA model.
 -  **{batch1_2_to_03.py, batch1_2_to_04.py, batch1_2_to_05.py, batch1_2_to_06.py, batch1_2_to_07.py, batch1_2_to_08.py, batch1_2_to_09.py, batch1_2_to_10.py}**: The main code for the AMDS-PFFA framework for the source domain batch 1 and batch 2, and the target domain batches 3 through  10 from the UCI drift dataset. 
