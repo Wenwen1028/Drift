@@ -26,7 +26,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
     pip install -r requirements.txt
 ### Program Overview
 - **folder{PCA_batch1_batch14}**：
-    - ***1) pca_2d_label.py***: Code for reducing batches 1 to 14 to a 2D labeled display using PCA.
+    - ***1) pca_2d_label.py***: Code for reducing batches 1 to 14 to a 2D labeled display using PCA. (The experimental results are included in the supplementary files of our article.)
     - ***2) folder-pca_plots***: The folder designated for storing data after PCA dimensionality reduction.
 - **folder{Preprocessing_UCIdrift_dataset}**:
     - ***1) maxmin_normalization.py***: Maximum and minimum normalization for UCI Batches 1 to 10.
