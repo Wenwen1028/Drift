@@ -31,7 +31,7 @@ The continuous, long-term monitoring of hazardous, noxious, explosive, and flamm
 - **folder{Preprocessing_UCIdrift_dataset}**:
     - ***1) maxmin_normalization.py***: Maximum and minimum normalization for UCI batches 1 to 10.
     - ***2) maxmin_normalization.py***: Zero mean normalization for UCI batches 1 to 10.
-    - ***3) batch1 to batch 10.py***: UCI Dataset can be download from https://archive.ics.uci.edu/dataset/224/gas+sensor+array+drift+dataset. In this work, we employ zero mean normalization method.
+    - ***3) batch1 to batch 10.py***: UCI Dataset can be download from https://archive.ics.uci.edu/dataset/224/gas+sensor+array+drift+dataset. In this work, we employ zero mean normalization method. You can select the appropriate normalization method based on your specific needs.
 - **folder{data_01}**：Record the accuracy and loss curve values throughout the experiment for convergence analysis.
 - **folder{data_loader}**：***data_loader.py***: Data loading code.
 - **folder{ema}**：
